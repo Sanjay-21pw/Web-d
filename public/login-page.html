@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="/login-page" method="post">
+                    <h3>Login</h3>
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input type="name" name="uname" required>
+                        <label for="">User Name</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me </label>
+                        <label><a href="#">Forget Password</a></label>
+                      
+                    </div>
+                    <button type="submit" name="submit" value="submit">Log in</button>
+                    <span id="error"></span>
+                    <div class="register">
+                        <p>Don't have a account <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <center>
+            <img src="login.png">
+            <h2 style="color:white;margin-top: 1%;">USER LOGIN</h2>
+            <hr width="500px" style="margin-top:0%;margin-right:32% ;">
+            <br>
+                <form method="post" action="/index.js">
+                    <label for="uname">USER ID</label><br>
+                    <input type="text" id="password"  placeholder="Ex.Ram" size="30">
+                    <label style="padding-top: 20px;" for="password">PASSWORD</label><br>
+                    <input type="text" id="uname"  placeholder="Ex.ABC@123" size="30">
+                    <button type="submit" style="margin-top: 15px;background-color:thistle; border-radius: 20px; width:120px;height: 45px;" >Submit</button>
+                </form> 
+            </div>
+    </center>
+</body> -->
